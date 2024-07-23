@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #FE6F61;
+    color: #fff;
+    padding: 10px 0;
+    text-align: right;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a svg {
+    margin-right: 5px;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+.banner {
+    background-color: #FE6F61;
+    color: black;
+    padding: 10px 0px;
+    text-align: left;
+}
+
+.banner p {
+    font-size: 24px;
+}
+
+.banner p svg {
+    margin-right: 10px;
+}
+
+.product-container {
+    padding: 20px;
+    background-color: white;
+}
+
+.waktu {
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: calc(25% - 40px);
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-info {
+    text-align: left;
+}
+
+.product-info h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.product-info p {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: green;
+}
+
+button {
+    background-color: #CD5C5C;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FD8F67;
+}
+
+footer {
+    background-color: #FE6F61;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
