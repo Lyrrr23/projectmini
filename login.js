@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Simulate login validation
         if (username && password) {
             alert('Login successful!');
-            window.location.href = 'file1.html'; // Redirect to home page
+            window.location.href = 'index.html'; // Redirect to home page
         } else {
             alert('Please enter a valid username and password');
         }
