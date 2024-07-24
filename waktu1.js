@@ -51,5 +51,5 @@ document.addEventListener('DOMContentLoaded', () => {
 function login() {
     // Simulate a login process
     alert("Login successful!");
-    window.location.href = "file1.html"; // Redirect to home page
+    window.location.href = "index.html"; // Redirect to home page
 }
